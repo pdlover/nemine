@@ -2,3 +2,9 @@ require "../lib/znet.nelua"
 require "../lib/json.nelua"
 require "../lib/minifs.nelua"
 require "../lib/minilua.nelua"
+
+global L = luaL_newstate()
+
+defer 
+    lua_close(L)
+end
