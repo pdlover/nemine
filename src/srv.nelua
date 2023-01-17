@@ -1,1 +1,4 @@
--- tbd
+require "../lib/znet.nelua"
+require "../lib/json.nelua"
+require "../lib/minifs.nelua"
+require "../lib/minilua.nelua"
