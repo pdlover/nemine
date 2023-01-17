@@ -1,0 +1,24 @@
+-- contains the config parser
+require "../lib/json.nelua"
+require "filestream"
+
+
+local Plugin = @record{
+  name: string,
+  path: string,
+  priority: integer,
+}
+
+local Server = @record{
+  motd: string,
+  ip: string,
+  port: integer,
+  whitelist: boolean,
+  plugins: hashmap(string, Plugin),
+}
+
+global function init_cfg(): Server
+    local fstr = filestream.open("nemine.json", "r+")
+    local server: Server = json.parse(fstr:read(), @Server)
+    return 
+end

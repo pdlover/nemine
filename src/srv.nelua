@@ -2,8 +2,13 @@ require "../lib/znet.nelua"
 require "../lib/json.nelua"
 require "../lib/minifs.nelua"
 require "../lib/minilua.nelua"
+require "./cfg.nelua"
+
+global cfg = init_cfg()
 
 global L = luaL_newstate()
+
+
 
 defer 
     lua_close(L)
