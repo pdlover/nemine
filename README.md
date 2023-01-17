@@ -9,6 +9,7 @@
 <br />
 
 [![Project license](https://img.shields.io/github/license/pdlover/nemine.svg?style=flat-square)](LICENSE)
+
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/pdlover/nemine?color=ff69b4&style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/pdlover/nemine?color=ff69b4&style=for-the-badge)
 </div>
