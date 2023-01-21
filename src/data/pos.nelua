@@ -1,0 +1,9 @@
+global Position = @record{
+    x: integer,
+    y: integer,
+    z: integer,
+    map: integer,
+    stance: integer,
+    yaw: integer,
+    pitch: integer
+}

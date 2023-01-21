@@ -1,0 +1,17 @@
+require "./pos.nelua"
+require "./gamemode.nelua"
+
+global User = @record{
+    fd: integer,
+    last_get: integer,
+    view_distance: integer,
+    nickname: string,
+    gamemode: GameMode,
+    health: integer,
+    position: Position,
+    flying: boolean,
+    grounded: boolean,
+    admin: boolean,
+    secret: string,
+    permissions: integer,
+}

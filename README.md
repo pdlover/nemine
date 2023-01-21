@@ -1,6 +1,5 @@
 <h1 align="center">
   <a href="https://github.com/pdlover/nemine">
-    <!-- Please provide path to your logo here -->
     <img src="docs/images/nemine_long.png" alt="Logo" width="512">
   </a>
 </h1>

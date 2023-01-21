@@ -1,0 +1,7 @@
+
+require "./pos.nelua"
+
+global GameMode = @enum{
+    creative = 0,
+    survival,
+}
